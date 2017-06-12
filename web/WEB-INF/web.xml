@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+    <context-param>
+        <param-name>loginjdbc</param-name>
+        <param-value>asir2017</param-value>
+    </context-param>
+    <context-param>
+        <param-name>passjdbc</param-name>
+        <param-value>asir2017</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>reg_pagina</param-name>
+     <param-value>4</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>dir_user_registrados</param-name>
+        <param-value>/Registrado/dir_users</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>dir_empresas</param-name>
+        <param-value>/Registrado/dir_empresas</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>dir_cursos</param-name>
+        <param-value>/Registrado/dir_cursos</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>conectorjdbc</param-name>
+        <param-value>com.mysql.jdbc.Driver</param-value>
+    </context-param>  
+    
+    <context-param>
+        <param-name>urljdbc</param-name>
+        <param-value>jdbc:mysql://192.168.3.2:3306/CloudSpace</param-value>
+    </context-param>
+    
+    
+     
+    <context-param>
+        <param-name>dirUploadEmail</param-name>
+        <param-value>/temp_email</param-value>
+    </context-param>
+    
+     <context-param>
+        <param-name>dirdownloadFile</param-name>
+        <param-value>/Registrado/dir_download</param-value>
+    </context-param>
+      
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+	<welcome-file>
+            index.jsp
+        </welcome-file>
+    </welcome-file-list>
+</web-app>

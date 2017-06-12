@@ -1,0 +1,4 @@
+https://www.youtube.com/watch?v=e-uPYpGeUHk
+http://plugins.netbeans.org/plugin/4425/ireport
+http://community.jaspersoft.com/
+Crear una conexxión a base de datos

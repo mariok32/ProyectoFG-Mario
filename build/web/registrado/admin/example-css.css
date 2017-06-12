@@ -1,0 +1,166 @@
+input.button { background-color: #EF9C00; 
+		  color: #8C5900;
+          border: 2px outset #EF9C00; }
+input.button:Hover { color: #444444 }
+
+input { background-color:#FDEBCF;
+	    border: 2px inset #FDEBCF }
+	   
+table.filelist { background-color:#FDE2B8; 
+        		 width:100%; 
+        		 border:3px solid #ffffff }
+th { background-color:#BC001D; 
+	 font-size: 10pt; 
+	 color:#022F55 }
+
+tr.mouseout { background-color:#F5BA5C; }
+tr.mouseout td {border:1px solid #F5BA5C;}
+
+tr.mousein  { background-color:#EF9C00; }
+tr.mousein td { border-top:1px solid #3399ff;
+				border-bottom:1px solid #3399FF;
+				border-left:1px solid #EF9C00;
+				border-right:1px solid #EF9C00; }
+tr.checked  { background-color:#B57600 }
+tr.checked td {border:1px solid #B57600;}
+
+tr.mousechecked { background-color:#8C5900 }
+tr.mousechecked td {border:1px solid #8C5900;}
+
+td { font-family:Verdana, Arial, Helvetica, sans-serif; 
+	 font-size: 7pt; 
+	 color: #FFF5E8; }
+
+td.message { background-color: #FFFF00; 
+			 color: #000000; 
+			 text-align:center; 
+			 font-weight:bold } 
+.formular {margin: 1px; background-color:#ffffff; padding: 1em; border:1px solid #000000;}
+.formular2 {margin: 1px;}
+
+A { text-decoration: none; 
+    color: #005073
+  }
+A:Hover { color : #022F55; 
+		  text-decoration : underline; }
+BODY { font-family:Verdana, Arial, Helvetica, sans-serif; 
+	   font-size: 8pt; 
+	   color: #666666;
+	   background-color: #FDE2B8;
+	 }
+
+         
+         
+ 
+         
+         
+
+element.style {
+}
+inspector-stylesheet:5
+.navbar.navbar-inverse.navbar-fixed-top {
+}
+inspector-stylesheet:3
+.navbar.navbar-inverse.navbar-fixed-top {
+}
+
+inspector-stylesheet:1
+.navbar.navbar-inverse.navbar-fixed-top {
+}
+custom.css:71
+.navbar-inverse {
+    background-color: #214761;
+    border-color: #F0F0F0;
+    min-height: 80px;
+}
+bootstrap.css:4190
+.navbar-inverse {
+    background-color: #222;
+    border-color: #080808;
+}
+bootstrap.css:3871
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+bootstrap.css:3856
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    -webkit-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+bootstrap.css:3769
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+bootstrap.css:881
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+Inherited from body
+custom.css:15
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+bootstrap.css:897
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+Inherited from html
+bootstrap.css:892
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+bootstrap.css:8
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+Pseudo ::before element
+bootstrap.css:5935
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+bootstrap.css:887
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+Pseudo ::after element
+bootstrap.css:5953
+.clearfix:after, .dl-horizontal dd:after, .container:after, .container-fluid:after, .row:after, .form-horizontal .form-group:after, .btn-toolbar:after, .btn-group-vertical > .btn-group:after, .nav:after, .navbar:after, .navbar-header:after, .navbar-collapse:after, .pager:after, .panel-body:after, .modal-footer:after {
+    clear: both;
+}
+bootstrap.css:5935
+.clearfix:before, .clearfix:after, .dl-horizontal dd:before, .dl-horizontal dd:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after, .form-horizontal .form-group:before, .form-horizontal .form-group:after, .btn-toolbar:before, .btn-toolbar:after, .btn-group-vertical > .btn-group:before, .btn-group-vertical > .btn-group:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .navbar-header:before, .navbar-header:after, .navbar-collapse:before, .navbar-collapse:after, .pager:before, .pager:after, .panel-body:before, .panel-body:after, .modal-footer:before, .modal-footer:after {
+    display: table;
+    content: " ";
+}
+bootstrap.css:887
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
